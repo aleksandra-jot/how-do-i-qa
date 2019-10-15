@@ -21,7 +21,7 @@ gem 'sprig'
 
 group :development, :test do
   gem 'bogus', require: false
-  gem 'capybara', '>= 2.0'
+  gem 'capybara', '>= 3.13.2'
   gem 'capybara-webkit', '>= 1.15'
   gem 'database_cleaner'
   gem 'factory_bot'
@@ -36,7 +36,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'shoulda-matchers'
+  gem 'shoulda-matchers', '~> 4.1.2'
   gem 'simplecov'
 end
 
