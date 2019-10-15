@@ -6,7 +6,7 @@ describe "test0", type: :feature do
         # binding.pry
         visit '/pages/test_0'
         sleep 3
-        page.has_content?('Test #0 - the basics') == true
+        page.has_content?('Test #0 - the basics')
         click_on('Next')
         sleep 3
         page.has_content?('Test #1 - scoping')
