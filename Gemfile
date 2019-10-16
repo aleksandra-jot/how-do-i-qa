@@ -25,6 +25,7 @@ group :development, :test do
   gem 'capybara-webkit', '>= 1.15'
   gem 'database_cleaner'
   gem 'factory_bot'
+  gem 'factory_girl_rails'
   gem 'ffaker'
   gem 'poltergeist', require: false
   gem 'selenium-webdriver'

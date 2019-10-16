@@ -97,6 +97,11 @@ GEM
     execjs (2.7.0)
     factory_bot (5.0.1)
       activesupport (>= 4.2.0)
+    factory_girl (4.9.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.9.0)
+      factory_girl (~> 4.9.0)
+      railties (>= 3.0.0)
     ffaker (2.10.0)
     ffi (1.9.25)
     formatador (0.2.5)
@@ -318,6 +323,7 @@ DEPENDENCIES
   devise
   eventmachine
   factory_bot
+  factory_girl_rails
   ffaker
   guard-rspec
   haml-rails
