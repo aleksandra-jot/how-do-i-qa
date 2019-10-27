@@ -17,13 +17,6 @@ describe "test5", type: :feature  do
         
         sleep 4
     end
-        
-        
-        
-    
-    
-    
-    
-
     
 end
+     
